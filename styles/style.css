@@ -43,6 +43,7 @@
 
 header {
 background-color:rgba(229, 84, 115, 0.10);
+margin-bottom: 178px;
 }
 
 .head {
@@ -71,7 +72,51 @@ background-color:rgba(229, 84, 115, 0.10);
 }
 
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
 
+
+.flower-description {
+    font-size: 1.125rem;
+    /* max-width: 594px; */
+    margin-top: 24px;
+    text-align: center;
+}
+
+.flower-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.image-1-name {
+    margin-top: 32px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #272727;
+    text-decoration: underline;
+    text-align: center;
+}
+.image-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 77px 0px 77px;
+    border-radius: 300px 300px 0px 0px;
+}
+.image-2 {
+    background-color: rgba(5, 152, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+    border-radius: 300px 300px 0px 0px;
+}
+.image-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+}
 
 
 @media screen and (max-width:576px) {
@@ -79,5 +124,9 @@ background-color:rgba(229, 84, 115, 0.10);
     .head {
         flex-direction: column;
     }
+
+    .flower-container {
+    grid-template-columns: repeat(1,1fr);
+}
 
 }
