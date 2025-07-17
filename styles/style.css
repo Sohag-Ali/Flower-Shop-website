@@ -48,7 +48,7 @@ background-color:rgba(229, 84, 115, 0.10);
 .head {
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
 .header-title {
@@ -65,9 +65,10 @@ background-color:rgba(229, 84, 115, 0.10);
     margin-bottom: 32px;
 }
 
-/* .header-image img {
-    margin-top: 50px;
-} */
+.header-image img {
+    padding-top: 50px;
+    max-width: 100%;
+}
 
 
 
