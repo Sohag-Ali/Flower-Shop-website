@@ -1,0 +1,82 @@
+/* .........Universal styles.......... */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .......Shared styles for every section can use this..... */
+ 
+.light-gray {
+    color: rgba(39, 39, 39, 0.60);
+ }
+
+.display-flex {
+    display: flex;
+}
+
+.display-size {
+    max-width: 1440px;
+    margin: 0px auto;
+    
+}
+
+.btn-primany {
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+/* .................Header section styles part.......... */
+
+header {
+background-color:rgba(229, 84, 115, 0.10);
+}
+
+.head {
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 5rem;
+    font-weight: 800;
+    max-width: 708px;
+}
+
+.header-desscription {
+    font-size: 1.125rem;
+    max-width: 634px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* .header-image img {
+    margin-top: 50px;
+} */
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    .head {
+        flex-direction: column;
+    }
+
+}
