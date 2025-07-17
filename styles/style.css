@@ -105,17 +105,22 @@ margin-bottom: 178px;
 .image-1 {
     background-color: rgba(167, 33, 98, 0.15);
     padding: 110px 77px 0px 77px;
+    padding-bottom: 0px;
     border-radius: 300px 300px 0px 0px;
+    max-width: 100%;
 }
 .image-2 {
     background-color: rgba(5, 152, 160, 0.15);
     padding: 117px 47px 51px 47px;
     border-radius: 300px 300px 0px 0px;
+    max-width: 100%;
 }
 .image-3 {
     background-color: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0px 75px;
+ 
     border-radius: 300px 300px 0px 0px;
+    max-width: 100%;
 }
 
 
@@ -125,8 +130,14 @@ margin-bottom: 178px;
         flex-direction: column;
     }
 
-    .flower-container {
-    grid-template-columns: repeat(1,1fr);
+   .flower-container {
+    grid-template-columns: 1fr;
+
 }
 
+}
+
+
+.hide {
+    display: none;
 }
