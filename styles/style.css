@@ -258,6 +258,33 @@ margin-bottom: 178px;
     width: 100%;
 }
 
+/* .............foooter section styles.......... */
+
+footer {
+    background-color: #111010;
+}
+
+.footer-section {
+    padding: 128px 0px;
+    text-align: center;
+}
+.footer-section h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.footer-section span {
+    color: #E55473;
+}
+.p1 {
+    color: rgba(255, 255, 255, 0.90);
+    margin: 25px auto 32px auto ;
+    max-width: 625px;
+}
+.cpy-right {
+     color: rgba(255, 255, 255, 0.40);
+}
+
 /* ...................Media Query for small device.............. */
 @media screen and (max-width:576px) {
 
