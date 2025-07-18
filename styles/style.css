@@ -152,7 +152,7 @@ margin-bottom: 178px;
 /* ***************** Support Section styles part************ */
 
 .suppot {
-    margin: 128px auto 132px auto;
+    margin: 128px auto;
 }
 
 .suppot-container {
@@ -180,6 +180,7 @@ margin-bottom: 178px;
 
 .hot-deal {
     background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 132px;
 }
 
 .deal {
@@ -205,9 +206,24 @@ margin-bottom: 178px;
     max-width: 100%;
 }
 
+/* .................Instragram section part styles.............. */
+
+.instragram {
+    margin-bottom: 128px;
+}
 .insta-content {
     max-width: 594px;
-    text-align: center;
+  margin: 0px auto 48px auto;
+  text-align: center;
+}
+.instra-picture {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+}
+
+.instra-picture img {
+    width: 100%;
 }
 
 
@@ -286,6 +302,17 @@ margin-bottom: 178px;
     margin: 114px auto 88px auto;
     text-align: center;
 }
+
+/* ************** Instragram section************ */
+.insta-content {
+  margin: 0px auto 48px auto;
+}
+.instra-picture {
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+    padding: 10px;
+}
+
 }
 
 /* ......................media Query for Tab or medium device........... */
@@ -330,6 +357,17 @@ margin-bottom: 178px;
 .deal-image {
     margin: 204px auto 98px auto;
 }
+
+/* *********** Instragram section for tab*************/
+.insta-content {
+  margin: 0px auto 48px auto;
+}
+.instra-picture {
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    padding: 10px;
+}
+
 
 }
 
