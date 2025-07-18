@@ -141,6 +141,7 @@ margin-bottom: 178px;
     background-color: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0px 75px;
     border-radius: 300px 300px 0px 0px;
+
 }
 
 .img1 {
@@ -242,6 +243,15 @@ margin-bottom: 178px;
     margin-bottom: 128px;
 }
 
+.btn-primany-c {
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
 .con-des{
     font-size: 1.125rem;
     margin-top: 16px;
@@ -388,9 +398,15 @@ footer {
 .cons-div {
 flex-direction: column;
     gap: 16px;
-}
+    /* justify-content: center; */
+    align-items: center;
 }
 
+.btn-primany-c {
+    padding: 20px 13px;
+    width: 50%;
+}
+}
 
 
 /* ......................media Query for Tab or medium device........... */
@@ -455,7 +471,7 @@ flex-direction: column;
 
 /* ...............Contract  section........... */
 .contract {
-    padding: 121.5px 157px;
+    padding: 121.5px 100px;
 }
 
 }
