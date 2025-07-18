@@ -1,7 +1,6 @@
 /* .........Universal styles.......... */
-
+/* ...............Import Font loto............... */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
 
 * {
     margin: 0;
@@ -13,6 +12,7 @@ html, body {
     width: 100%;
     overflow-x: hidden; /* Add this block */
 }
+/* ......font loto....... */
 .lato {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -23,6 +23,9 @@ html, body {
  
 .light-gray {
     color: rgba(39, 39, 39, 0.60);
+ }
+.light-gray-deep {
+    color: rgba(39, 39, 39, 0.80);
  }
 
 .display-flex {
@@ -79,14 +82,16 @@ margin-bottom: 178px;
    
 }
 
+/* ........Fower feature section styles part........... */
+
 .feature-flower-content {
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-
 }
+
 .section-title {
     color: #272727;
     /* text-align: center; */
@@ -94,15 +99,12 @@ margin-bottom: 178px;
     font-weight: 800;
 }
 
-
 .flower-description {
     font-size: 1.125rem;
      max-width: 594px;
     margin-top: 24px;
     /* text-align: center; */
 }
-
-     
 
 .flower-container {
     display: grid;
@@ -119,25 +121,26 @@ margin-bottom: 178px;
     text-decoration: underline;
     text-align: center;
 }
+
 .image-1 {
     background-color: rgba(167, 33, 98, 0.15);
     padding: 110px 77px 0px 77px;
     padding-bottom: 0px;
     border-radius: 300px 300px 0px 0px;
-   
 }
+
 .image-2 {
     background-color: rgba(5, 152, 160, 0.15);
     padding: 117px 47px 51px 47px;
     border-radius: 300px 300px 0px 0px;
-   
 }
+
 .image-3 {
     background-color: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0px 75px;
     border-radius: 300px 300px 0px 0px;
-   
 }
+
 .img1 {
      max-width: 100%;
     height: auto;
@@ -146,6 +149,32 @@ margin-bottom: 178px;
 }
 
 
+
+.suppot {
+    margin: 128px auto;
+}
+.suppot-container {
+    background-color: hwb(0 15% 85% / 0.05);
+    border-radius: 8px;
+    padding: 86.5px 175px;
+}
+
+.suppot-container {
+    justify-content: space-between;
+     gap: 100px;
+}
+.suppot-content {
+ text-align: center;
+}
+.suppot-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+
+
+/* ...................Media Query for small device.............. */
 @media screen and (max-width:576px) {
 
      .head {
@@ -197,8 +226,15 @@ margin-bottom: 178px;
         margin-top: 16px;
     }
 
+    .suppot-container {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
 }
 
+}
+
+/* ......................media Query for Tab or medium device........... */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .flower-container {
@@ -223,6 +259,11 @@ margin-bottom: 178px;
         font-size: 1.35rem;
         margin-top: 20px;
     }
+    .suppot-container {
+    background-color: hwb(0 15% 85% / 0.05);
+    border-radius: 8px;
+    padding: 86.5px 75px;
+}
 }
 
 
