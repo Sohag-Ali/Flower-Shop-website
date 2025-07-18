@@ -191,10 +191,14 @@ margin-bottom: 178px;
     max-width: 594px;
     margin: 234px auto 158px auto;
 }
+.deal-content, span {
+     color: #E55473;
+}
 
 .deal-des {
     margin-top: 24px;
     margin-bottom: 24px;
+    font-size: 1.125rem;
 }
 
 .deal-image {
@@ -227,6 +231,32 @@ margin-bottom: 178px;
 }
 
 
+/* ...............Contract section part styles........... */
+.contract {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    padding: 121.5px 287px;
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.con-des{
+    font-size: 1.125rem;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.cons-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.contract input {
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+    width: 100%;
+}
 
 /* ...................Media Query for small device.............. */
 @media screen and (max-width:576px) {
@@ -313,7 +343,25 @@ margin-bottom: 178px;
     padding: 10px;
 }
 
+/* ...............Contract  section........... */
+.contract {
+    padding: 61.5px 27px;
+
 }
+
+.con-des{
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.cons-div {
+flex-direction: column;
+    gap: 16px;
+}
+
+}
+
+
 
 /* ......................media Query for Tab or medium device........... */
 
@@ -368,9 +416,12 @@ margin-bottom: 178px;
     padding: 10px;
 }
 
-
+/* ...............Contract  section........... */
+.contract {
+    padding: 121.5px 157px;
 }
 
+}
 
 .hide {
     display: none;
