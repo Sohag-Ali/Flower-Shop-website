@@ -102,8 +102,8 @@ margin-bottom: 178px;
 .flower-description {
     font-size: 1.125rem;
      max-width: 594px;
-    margin-top: 24px;
     /* text-align: center; */
+    margin-top: 24px;
 }
 
 .flower-container {
@@ -149,10 +149,12 @@ margin-bottom: 178px;
 }
 
 
+/* ***************** Support Section styles part************ */
 
 .suppot {
-    margin: 128px auto;
+    margin: 128px auto 132px auto;
 }
+
 .suppot-container {
     background-color: hwb(0 15% 85% / 0.05);
     border-radius: 8px;
@@ -163,13 +165,49 @@ margin-bottom: 178px;
     justify-content: space-between;
      gap: 100px;
 }
+
 .suppot-content {
  text-align: center;
 }
+
 .suppot-name {
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 24px;
+}
+
+/* .............Hot Deal section styles................ */
+
+.hot-deal {
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.deal {
+    justify-content: center;
+    gap: 186px;
+}
+.deal-content {
+    max-width: 594px;
+    margin: 234px auto 158px auto;
+}
+
+.deal-des {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.deal-image {
+    max-width: 318px;
+    max-height: 420px;
+    margin: 104px auto 98px auto;
+}
+.deal-image img{
+    max-width: 100%;
+}
+
+.insta-content {
+    max-width: 594px;
+    text-align: center;
 }
 
 
@@ -226,12 +264,28 @@ margin-bottom: 178px;
         margin-top: 16px;
     }
 
+    /*    ****** Support section********** */
+    .suppot-container {
+    padding: 36.5px 25px;
+}
     .suppot-container {
         display: flex;
         flex-direction: column;
-        gap: 100px;
+        gap: 80px;
 }
 
+/* ************Hot Deal section for Small device*********** */
+.deal {
+    gap: 16px;
+    flex-direction: column-reverse;
+}
+.deal-image {
+    margin: 104px auto auto auto;
+}
+.deal-content {
+    margin: 114px auto 88px auto;
+    text-align: center;
+}
 }
 
 /* ......................media Query for Tab or medium device........... */
@@ -259,11 +313,24 @@ margin-bottom: 178px;
         font-size: 1.35rem;
         margin-top: 20px;
     }
+    
+    /* ********* support section ****** */
     .suppot-container {
-    background-color: hwb(0 15% 85% / 0.05);
-    border-radius: 8px;
-    padding: 86.5px 75px;
+    padding: 66.5px 75px;
 }
+
+/* *********** Hot Deal section for tab*************/
+.deal {
+    gap: 86px;
+}
+.deal-content {
+    padding-left: 10px;
+}
+
+.deal-image {
+    margin: 204px auto 98px auto;
+}
+
 }
 
 
